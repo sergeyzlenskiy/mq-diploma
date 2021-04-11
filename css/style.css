@@ -93,7 +93,7 @@ body {
   margin-left: 35px;
 }
 
-.menu-list-item-1{
+.menu-list-item-1 {
   margin-left: 0;
 }
 
@@ -178,7 +178,9 @@ body {
   z-index: -1;
 }
 
-.trend1, .trend2, .trend3{
+.trend1,
+.trend2,
+.trend3 {
   margin-right: 0.2%;
 }
 
@@ -214,10 +216,7 @@ body {
   margin-bottom: 5%;
 }
 
-.trend-info-title,
-.title-trends,
-.our-products-title,
-.popup-title {
+.titles {
   display: inline;
   font-size: 20px;
   color: #0f0d0e;
@@ -257,7 +256,8 @@ body {
 .card {
   padding-top: 64px;
 }
-.card1{
+
+.card1 {
   padding-top: 0;
 }
 
@@ -278,7 +278,7 @@ body {
   margin-left: 20px;
 }
 
-.tag-list-1{
+.tag-list-1 {
   margin-left: 0;
 }
 
@@ -336,7 +336,7 @@ body {
 }
 
 .title {
-  font-family: OpenSans,sans-serif;
+  font-family: OpenSans, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -615,10 +615,11 @@ body {
   display: inline-block;
 }
 
-.adress-list{
+.adress-list {
   margin-left: 25px;
 }
-.adress-list1{
+
+.adress-list1 {
   margin-left: 0;
 }
 
@@ -827,7 +828,9 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .shop-item-2, .shop-item-3 {
+
+  .shop-item-2,
+  .shop-item-3 {
     margin-left: 9%;
   }
 
@@ -885,7 +888,8 @@ body {
     height: 246px;
   }
 
-  .trend3, .trend4 {
+  .trend3,
+  .trend4 {
     margin-top: 0.2%;
   }
 
@@ -946,11 +950,13 @@ body {
     box-sizing: border-box;
   }
 
-  .shop-item-1, .shop-item-3 {
+  .shop-item-1,
+  .shop-item-3 {
     margin-left: 7%;
   }
 
-  .shop-item-2, .shop-item-3 {
+  .shop-item-2,
+  .shop-item-3 {
     margin-right: 7%;
     margin-left: 7%;
   }
@@ -1005,11 +1011,14 @@ body {
     height: 320px;
   }
 
-  .trend1, .trend2, .trend3 {
+  .trend1,
+  .trend2,
+  .trend3 {
     margin-right: 0.2%;
   }
 
-  .trend3, .trend4 {
+  .trend3,
+  .trend4 {
     margin-top: 0;
   }
 }
@@ -1089,11 +1098,15 @@ body {
     height: 229px;
   }
 
-  .trend2, .trend3, .trend4 {
+  .trend2,
+  .trend3,
+  .trend4 {
     margin-top: 0.8%;
   }
 
-  .trend1, .trend2, .trend3 {
+  .trend1,
+  .trend2,
+  .trend3 {
     margin-right: 0;
   }
 
@@ -1121,8 +1134,8 @@ body {
   .card {
     padding-top: 35px;
   }
-  
-  .card1{
+
+  .card1 {
     padding-top: 0;
   }
 
@@ -1213,11 +1226,15 @@ body {
 
   .popup_container {
     max-width: 90%;
-    max-height: 80%;
+    max-height: 530px;
     background-color: #fff;
-    position: fixed;
-    top: 5%;
-    left: 4%;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+  }
+
+  .label-text {
+    width: 290px;
   }
 
   .popup-form {
@@ -1243,15 +1260,24 @@ body {
     height: 246px;
   }
 
-  .trend2, .trend3, .trend4 {
+  .trend2,
+  .trend3,
+  .trend4 {
     margin-top: 0;
   }
 
-  .trend1, .trend3 {
+  .trend1,
+  .trend3 {
     margin-right: 0.3%;
   }
 
-  .trend3, .trend4 {
+  .trend3,
+  .trend4 {
     margin-top: 0.3%;
+  }
+
+  .popup_container {
+    width: 80%;
+    left: 10%;
   }
 }
